@@ -1,0 +1,8 @@
+[build]
+  publish = "_site" # The directory to publish
+  command = "npx eleventy" # The command to build the site
+
+[dev]
+  command = "npx eleventy --serve" # The command to run the development server
+  targetPort = 8080 # The port for the development server
+  port = 8888 # The port for the Netlify dev server
